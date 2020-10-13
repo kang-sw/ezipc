@@ -1,5 +1,7 @@
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
+#include <ranges>
+#include <iterator>
 #include <ezipc/utility/log.hpp>
 #include <ezipc/utility/string.hxx>
 

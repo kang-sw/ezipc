@@ -6,7 +6,8 @@ namespace ezipc {
 enum class sync_policy {
     request,
     lazy,
-    poll
+    poll,
+    poll_unreliable
 };
 
 using var_id_t = uint64_t;
